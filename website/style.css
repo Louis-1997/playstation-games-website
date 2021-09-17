@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+/* font-family: 'Orbitron', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&display=swap');
+
+
+/* font-family: 'Press Start 2P', cursive; */
+
+
+*{background-image: url("images/background.jpg");
+    box-sizing: border-box;
+    padding: 5px 30px 5px
+
+
+    /* /*This is how to target All of your HTML code. This shows how to change the background */
+
+    /* box-sizing: border-box reset the border to the whole HTML as most borders have their own setting */
+
+    /* padding: one value (number) represents padding on all sides, two represents top and, botton, three values represent top, right and left then bottom. Four values represent top, right, botton, left */
+
+
+
+}
+
+
+
+h1{
+    color:white;
+    font-size: 50px; 
+    font-family: 'Press Start 2P', cursive;
+}
+
+h2{
+    color:#ffffff;
+    font-size: 50px;  
+}
+
+body {
+    margin: 0px;
+    background-image: url("images/background.jpg");
+    background-size: 100%;
+}
+
+/* This is how target a element within our HTML and change the colour and suze of it. */
+
+.welcome {
+        background-color: rgb(0, 26, 255);
+}
+
+.large{
+    font-size: 30px;
+}
+
+
+.blue{
+    background-color: rgb(0, 26, 255);
+}
+
+
+#whitetext {
+    color: white
+}
+#image1{
+    width: 50%;
+}
+#Aquatext{
+    color:#00FFFF ;
+}
+p {
+    background-color: rgb(0,0,0,0,5);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+#navbar {
+    background-color: rgb(105, 105, 105);
+    height:40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#navbar a {
+    color: aqua;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#navbar a:hover{
+    color: red;
+}
+
+#image1{
+    width: 24%;
+}
+
+#image2{
+    width: 25%;
+}
+
+#image3{
+    width: 25%;
+}
+
+
+#image4{
+    width: 25%;
+}
+
+#image5{
+    width: 50%;
+}
+
+#image6{
+    width: 12%;
+}
+
+#image7{
+    width: 25%;}
+
+
+/* 
+#image8{
+    width: 25%;}
+
+ */
+
+
+
+
+
+
